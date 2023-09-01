@@ -305,7 +305,7 @@ elif choise == 2: #startpoint
             #break
     elif forest_left_side == 2: # geht zum anfang wieder
         print("Your are still in the Forest and there is only 1 way ")
-    forest_right_side = int(print("1.go the only way  \n2. go back : "))
+        forest_right_side = int(print("1.go the only way  \n2.go back: "))
     if forest_right_side == 1:
         print("Your are still in the forest \n Now you have 2 ways")
         forest_right_side_2 = int(input("1. go forwand \n2. to to the right side \n3. go back"))
